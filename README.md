@@ -5,6 +5,9 @@ This readme file documents all of the required steps to run µOR-Ligand.
 
 Note that the code was implemented and tested only on a Linux operating system.
 
+# Data
+The complete training and external validation data sets are freely downloadable at https://github.com/JanaShenLab/opioids or https://github.com/Myongin/muopioids.
+
 ## How to set up the environment
 We have provided an Anaconda environment file for easy setup.
 If you do not have Anaconda installed, you can get Miniconda from [here](https://docs.conda.io/en/latest/miniconda.html).
