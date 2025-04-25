@@ -17,18 +17,27 @@ conda env create -n -OR-Ligand -f environment.yml
 conda activate -OR-Ligand
 ```
 
-# In order to install requirement packages
+# In order to install the required packages
 ```bash
 pip install -r requirements.txt
 ```
 
 # Step by step files:
 
-1_Generate_features.py: prepare features
+Step_1_prepare_ligand_features.py: prepare ligand features
 
-2_Inter-hammet_train_and_evaluate.py: train and test the model
+Step_2_prepare_interaction_features.py: prepare molecular interaction features
 
+Step_3_prepare_fingerprint_features.py: prepare molecular fingerprint features
+
+Step_4_validate_performance.py: validate the µOR-Ligand
 
 ## License
 
 This project is licensed for **academic and research purposes only**. For commercial usage, please connect with s.yavuz.ugurlu@gmail.com
+
+## Acknowledgements
+We thank the authors of Oh et. al. [1] for sharing their data.
+
+## References
+1. Oh, Myongin, et al. "Machine Learned Classification of Ligand Intrinsic Activities at Human μ-Opioid Receptor." ACS Chemical Neuroscience 15.15 (2024): 2842-2852.
