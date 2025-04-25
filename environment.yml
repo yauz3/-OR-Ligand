@@ -1,0 +1,21 @@
+name: -OR-Ligand
+channels:
+  - conda-forge
+  - psi4
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - rdkit
+  - mordred
+  - pyscf
+  - psi4
+  - mdanalysis
+  - openbabel
+  - scikit-learn
+  - shap
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+prefix: /home/yavuz/anaconda3/envs/-OR-Ligand
